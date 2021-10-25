@@ -10,3 +10,6 @@ bcrypt - https://www.npmjs.com/package/bcrypt
 
 Sample of what we will create
 Hacker News - https://news.ycombinator.com/
+
+Read through - 13.1.
+Worked through - 13.1.
