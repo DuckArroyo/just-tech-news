@@ -1,0 +1,24 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "Module 13 bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuckArroyo/just-tech-news.git"
+  },
+  "author": "Developer DuckArroyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuckArroyo/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/DuckArroyo/just-tech-news#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "sequelize": "^6.8.0"
+  }
+}
