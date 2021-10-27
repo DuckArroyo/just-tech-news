@@ -17,3 +17,5 @@ Restart at 13.2.1
 
 - There is a current error in starting server. Not accepting DB_USER. tried options, no luck. Otherwise code is working.
 - See connection.js file for issue.
+
+Testing commits. 9:18pm after class
