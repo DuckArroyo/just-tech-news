@@ -2,9 +2,10 @@
   "name": "just-tech-news",
   "version": "1.0.0",
   "description": "Module 13 bootcamp",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
     "sequelize": "^6.8.0"
-  }
+  },
+  "devDependencies": {}
 }
