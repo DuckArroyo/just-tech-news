@@ -15,14 +15,15 @@ Hacker News - https://news.ycombinator.com/
 
 ### Working notes
 
-Read through - 13.4.
-Worked through - 13.4.
-Restart at 13.4.
+Read through - 13.4.4
+Worked through - 13.4.4
+Restart at 13.4.4 - need to seed the project. tables are empty
 
 ### Questions / issues
 
-- main - behind
-- develop - all updates
+- main - furthest behind
+- develop - behind
 - feature/user - done
 - feature/password - done
 - feature/post - done
+- feature/votes - most forward
