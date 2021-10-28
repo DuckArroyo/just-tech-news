@@ -75,6 +75,34 @@ router.put("/:id", (req, res) => {
     });
 });
 
+// PUT /api/login
+router.post("/login", (req, res) => {
+  //query operation
+  // expects {email: 'lernantino@gmail.com', password: 'password1234'}
+  User.findOne({
+    where: {
+      email: req.body.email,
+    },
+  })
+    //add comment syntaxin front of this line in the .then()
+    .then((dbUserData) => {
+      if (!dbUserData) {
+        res.status(400).json({ message: "No user with that email address!" });
+        return;
+      }
+
+      // Verify user
+      //! 13.2.6 has explanation of this code.
+      //This method returns a Boolean which can be useds a conditional statement to confirm verification.
+      const validPassword = dbUserData.checkPassword(req.body.password);
+      if (!validPassword) {
+        res.status(400).json({ message: "Incorrect password!" });
+        return;
+      }
+      res.json({ user: dbUserData, message: "You are logged in!" });
+    });
+});
+
 // DELETE /api/users/1
 router.delete("/:id", (req, res) => {
   User.destroy({
