@@ -11,9 +11,9 @@ bcrypt - https://www.npmjs.com/package/bcrypt
 Sample of what we will create
 Hacker News - https://news.ycombinator.com/
 
-Read through - 13.1.7
-Worked through - 13.1.7
-Restart at 13.2.1
+Read through - 13.3.4
+Worked through - 13.3.4
+Restart at 13.
 
 - There is a current error in starting server. Not accepting DB_USER. tried options, no luck. Otherwise code is working.
 - See connection.js file for issue.
