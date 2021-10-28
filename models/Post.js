@@ -1,5 +1,4 @@
 const { Model, DataTypes } = require("sequelize");
-const { underscoredIf } = require("sequelize/types/lib/utils");
 const sequelize = require("../config/connection");
 
 //create our Post model
