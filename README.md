@@ -1,6 +1,8 @@
 # just-tech-news
 
-Coding bootcamp module 13
+## Coding bootcamp module 13
+
+There is no html page for this application. all work is database related.
 
 Installed
 npm - https://docs.npmjs.com/about-npm
@@ -11,11 +13,16 @@ bcrypt - https://www.npmjs.com/package/bcrypt
 Sample of what we will create
 Hacker News - https://news.ycombinator.com/
 
-Read through - 13.3.4
-Worked through - 13.3.4
-Restart at 13.
+### Working notes
 
-- There is a current error in starting server. Not accepting DB_USER. tried options, no luck. Otherwise code is working.
-- See connection.js file for issue.
+Read through - 13.4.
+Worked through - 13.4.
+Restart at 13.4.
 
-Testing commits. 9:18pm after class
+### Questions / issues
+
+- main - behind
+- develop - all updates
+- feature/user - done
+- feature/password - done
+- feature/post - done
