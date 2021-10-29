@@ -15,9 +15,9 @@ Hacker News - https://news.ycombinator.com/
 
 ### Working notes
 
-Read through - 13.4.4
-Worked through - 13.4.4
-Restart at 13.4.4 - need to seed the project. tables are empty
+Read through - 13.4.5
+Worked through - 13.4.5
+Restart at 13.4.5
 
 ### Questions / issues
 
