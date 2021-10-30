@@ -5,7 +5,6 @@ const sequelize = require("../../config/connection");
 // get all users
 router.get("/", (req, res) => {
   console.log("======================");
-
   Post.findAll({
     attributes: [
       "id",
@@ -89,12 +88,12 @@ router.post("/", (req, res) => {
 router.put("/upvote", (req, res) => {
   // custom static method created in models/Post.js
   // create the vote
-  Post.upvote(req.body, { Vote } ).then((updatedPostData) => res.json(updatedPostData))
-      .catch((err) => {
-        console.log(err);
-        res.status(400).json(err);
-      });
-  });
+  Post.upvote(req.body, { Vote })
+    .then((updatedPostData) => res.json(updatedPostData))
+    .catch((err) => {
+      console.log(err);
+      res.status(400).json(err);
+    });
 });
 
 router.put("/:id", (req, res) => {

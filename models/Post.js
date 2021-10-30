@@ -21,8 +21,8 @@ class Post extends Model {
             sequelize.literal(
               "(SELECT COUNT(*) FROM vote WHERE post.id = vote.post.id)"
             ),
+            "vote_count",
           ],
-          "vote_count",
         ],
       });
     });
