@@ -9,8 +9,13 @@ npm - https://docs.npmjs.com/about-npm
 sequilize - https://www.npmjs.com/package/sequelize
 dotenv - https://www.npmjs.com/package/dotenv
 bcrypt - https://www.npmjs.com/package/bcrypt
+handlebards.js - https://handlebarsjs.com/
+express-handlebars - https://www.npmjs.com/package/express-handlebars
+express-session - https://www.npmjs.com/package/express-session
+connect-session-sequelize - https://www.npmjs.com/package/connect-session-sequelize
 
-Sample of what we will create
+### Sample of what we will create
+
 Hacker News - https://news.ycombinator.com/
 
 ### Working notes
