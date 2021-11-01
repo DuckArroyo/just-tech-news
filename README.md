@@ -20,9 +20,9 @@ Hacker News - https://news.ycombinator.com/
 
 ### Working notes
 
-Read through - 13.4.6
-Worked through - 13.4.6
-Restart at 13.4.6
+Read through - 14.1.7
+Worked through - 14.1.7
+Restart at 14.2.1
 
 ### Questions / issues
 

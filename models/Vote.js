@@ -29,7 +29,7 @@ Vote.init(
   },
   {
     sequelize,
-    timestamps: false, //I think this is incorrect.
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: "vote",

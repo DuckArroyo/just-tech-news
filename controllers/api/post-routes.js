@@ -6,8 +6,6 @@ const sequelize = require("../../config/connection");
 router.get("/", (req, res) => {
   console.log("======================");
   Post.findAll({
-    order: [["created_at", "DESC"]],
-
     attributes: [
       "id",
       "post_url",
@@ -105,7 +103,10 @@ router.post("/", (req, res) => {
 router.put("/upvote", (req, res) => {
   // custom static method created in models/Post.js
   // create the vote
-  Post.upvote(req.body, { Vote })
+  Post.upvote(
+    { ...req.body, user_id: req.session.user_id },
+    { Vote, Comment, User }
+  )
     .then((updatedPostData) => res.json(updatedPostData))
     .catch((err) => {
       console.log(err);
