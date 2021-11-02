@@ -1,4 +1,4 @@
-//!require("dotenv").config(); //Code snap 14.1 does not list
+require("dotenv").config(); //Code snap 14.1 does not list
 const path = require("path");
 const express = require("express");
 const exphbs = require("express-handlebars");
@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, "public")));
 const routes = require("./controllers/");
 
 // turn on routes
-//!app.use(routes); //Code snap  14.1 does not list
+app.use(routes); //Code snap  14.1 does not list
 
 // turn on connection to db and server
 //! To reset the db force: true. Otherwise default to false.
