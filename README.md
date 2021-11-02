@@ -20,11 +20,11 @@ Hacker News - https://news.ycombinator.com/
 
 ### Working notes
 
-Read through - 14.1.7
-Worked through - 14.1.7
-Restart at 14.2.1
-Server is broken
-Seeds will not load - https://levelup.gitconnected.com/database-seeding-in-node-js-2b2eec5bfaa1
+Read through - 14.3.3
+Worked through - 14.3.3
+Restart at 14.3.3
+Check code snap 14.2.7 -
+Seeds load on command.
 
 ### Questions / issues
 
