@@ -7,18 +7,17 @@ const Comment = require("./Comment");
 User.hasMany(Post, { foreignKey: "user_id" });
 
 //reverse association Post > User
-Post.belongsTo(User, { foreignKey: "user_id", onDelete: "SET NULL" });
+Post.belongsTo(User, { foreignKey: "user_id" });
 
-Comment.belongsTo(User, { foreignKey: "user_id", onDelete: "SET NULL" });
+Comment.belongsTo(User, { foreignKey: "user_id" });
 
-Comment.belongsTo(Post, { foreignKey: "post_id", onDelete: "SET NULL" });
+Comment.belongsTo(Post, { foreignKey: "post_id" });
 
 // Connect User to Votes
 User.belongsToMany(Post, {
   through: Vote,
   as: "voted_posts",
   foreignKey: "user_id",
-  onDelete: "SET NULL",
 });
 
 // Connect Post to votes
@@ -26,12 +25,11 @@ Post.belongsToMany(User, {
   through: Vote,
   as: "voted_posts",
   foreignKey: "post_id",
-  onDelete: "SET NULL",
 });
 
-Vote.belongsTo(User, { foreignKey: "user_id", onDelete: "SET NULL" });
+Vote.belongsTo(User, { foreignKey: "user_id" });
 
-Vote.belongsTo(Post, { foreignKey: "post_id", onDelete: "SET NULL" });
+Vote.belongsTo(Post, { foreignKey: "post_id" });
 
 User.hasMany(Vote, { foreignKey: "user_id" });
 

@@ -23,6 +23,8 @@ Hacker News - https://news.ycombinator.com/
 Read through - 14.1.7
 Worked through - 14.1.7
 Restart at 14.2.1
+Server is broken
+Seeds will not load - https://levelup.gitconnected.com/database-seeding-in-node-js-2b2eec5bfaa1
 
 ### Questions / issues
 
