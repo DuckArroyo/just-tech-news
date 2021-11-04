@@ -20,9 +20,10 @@ Hacker News - https://news.ycombinator.com/
 
 ### Working notes
 
-Read through - 14.3.3
-Worked through - 14.3.3
-Restart at 14.3.3
+Install npm i jest -D on the mac.
+Read through - 14.4.6
+Worked through - 14.4.6
+Restart at 14.4.6
 Check code snap 14.2.7 -
 Seeds load on command.
 
