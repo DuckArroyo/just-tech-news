@@ -21,10 +21,11 @@ Hacker News - https://news.ycombinator.com/
 ### Working notes
 
 Install npm i jest -D on the mac.
-Read through - 14.4.6
-Worked through - 14.4.6
-Restart at 14.4.6
-Check code snap 14.2.7 -
+feature/dashboard branch is current branch
+Read through - 14.5.3
+Worked through - 14.5.3
+Restart at 14.5.3
+Check code snap 14.4.9
 Seeds load on command.
 
 ### Questions / issues
