@@ -1,4 +1,4 @@
-require("dotenv").config(); //Code snap 14.1 does not list
+//require("dotenv").config(); //Code snap 14.1 does not list
 const path = require("path");
 const express = require("express");
 const session = require("express-session");
@@ -31,7 +31,7 @@ app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false })); //!14.5.7 snap changed to false
 //express.static() method is a built-in Express.js middleware function that can take all of the contents of a folder and serve them as static assets
 app.use(express.static(path.join(__dirname, "public")));
 
