@@ -4,7 +4,7 @@ Coding bootcamp module 13
 
 There is no html page for this application. all work is database related.
 
-* Installed
+## Installed
 - npm - https://docs.npmjs.com/about-npm
 - sequilize - https://www.npmjs.com/package/sequelize
 - dotenv - https://www.npmjs.com/package/dotenv
@@ -20,13 +20,7 @@ Hacker News - https://news.ycombinator.com/
 
 ### Working notes
 
-Install npm i jest -D on the mac.
-feature/dashboard branch is current branch
-Read through - 14.5.3
-Worked through - 14.5.3
-Restart at 14.5.3
-Check code snap 14.4.9
-Seeds load on command.
+Project completed.
 
 ### Questions / issues
 
