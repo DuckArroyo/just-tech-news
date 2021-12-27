@@ -1,6 +1,6 @@
 # just-tech-news
 
-Deployed application [link](https://vast-tor-60137.herokuapp.com/)
+[Deployed application](https://vast-tor-60137.herokuapp.com/)
 
 ## Coding bootcamp module 13
 
