@@ -33,9 +33,9 @@ Seeds load on command.
 
 ### Questions / issues
 
-- main - furthest behind
-- develop - behind
+- main - Tip of the spear
+- develop - done
 - feature/user - done
 - feature/password - done
 - feature/post - done
-- feature/votes - most forward
+- feature/votes - done
